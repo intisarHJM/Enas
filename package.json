@@ -1,0 +1,33 @@
+{
+  "name": "enas",
+  "version": "1.0.0",
+  "description": "Family quiz game built with React inspired by Seen-Jeem.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "node --watch server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/intisarHJM/Enas.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/intisarHJM/Enas/issues"
+  },
+  "homepage": "https://github.com/intisarHJM/Enas#readme",
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "connect-mongo": "^6.0.0",
+    "dotenv": "^18.0.7",
+    "ejs": "^7.0.1",
+    "express": "^5.3.0",
+    "express-session": "^1.19.0",
+    "method-override": "^3.0.0",
+    "mongoose": "^9.11.1",
+    "morgan": "^1.12.1"
+  }
+}
